@@ -1,0 +1,607 @@
+AP vs creature type counted at 0
+======================================================================================================================
+VARIANT A, target +3 (hit cap 8.0%)
+  candidates over the 17 slots: 3914
+  [parse] SetValue iteration 1: best set's SetValue gain over the worn set 23.110 (3.48 DPS by W)
+  [parse] SetValue iteration 2: best set's SetValue gain over the worn set 4.430 (0.65 DPS by W)
+  [parse] SetValue iteration 3: best set's SetValue gain over the worn set 0.000 (0.00 DPS by W)
+  [api_ap] SetValue iteration 1: best set's SetValue gain over the worn set 23.110 (3.48 DPS by W)
+  [api_ap] SetValue iteration 2: best set's SetValue gain over the worn set 4.430 (0.65 DPS by W)
+  [api_ap] SetValue iteration 3: best set's SetValue gain over the worn set 0.000 (0.00 DPS by W)
+  D(current A) = 508.77 DPS   [hit 6.70% (+1.00% ranged-only), crit 19.28%, RAP 1295, MAP 759, Agi 385, bow DPS 32.2 @1.80]
+  D(best by D) = 509.58 DPS  (found from start: SetValue fixed point [api_ap]; differs from current)
+  BEST SET BY D (model DPS):
+  hit 7.70% (+0.00% ranged-only), crit 17.96%, RAP 1327, MAP 808, Agi 368, bow DPS 32.2 @1.80
+  head      252605 Black Dragonscale Helm
+  neck      15411 Mark of Fordring
+  shoulder  272105 Darkspear Pauldrons [Exalted]
+  back      272414 Howler's Furs   <- was 13340 Cape of the Black Baron
+  chest     252483 Dawn Armor
+  wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+  hands     272099 Raider Gloves [Exalted]
+  waist     22232 Marksman's Girdle
+  legs      22673 Outrider's Chain Leggings [Exalted]
+  feet      13967 Windreaver Greaves
+  finger1   19325 Don Julio's Band [Exalted]
+  finger2   272408 Cutthroat's Signet
+  trinket1  280065 Behemoth Bones [Use: not in UseData]   <- was 13965 Blackhand's Breadth [Use: not in UseData]
+  trinket2  19120 Rune of the Guard Captain
+  mainhand  274419 Bear Poking Stick
+  offhand   -
+  ranged    13023 Eaglehorn Long Bow
+  SetValue fixed point [parse]: D = 509.58 DPS (+0.81 vs current); differs from current; same as best by D
+    back      272414 Howler's Furs   <- was 13340 Cape of the Black Baron
+    wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+    trinket1  280065 Behemoth Bones [Use: not in UseData]   <- was 13965 Blackhand's Breadth [Use: not in UseData]
+  SetValue fixed point [api_ap]: D = 509.58 DPS (+0.81 vs current); differs from current; same as best by D
+    back      272414 Howler's Furs   <- was 13340 Cape of the Black Baron
+    wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+    trinket1  280065 Behemoth Bones [Use: not in UseData]   <- was 13965 Blackhand's Breadth [Use: not in UseData]
+  single-slot swaps, current set -> best-by-D item in that slot alone (D gain):
+    back        -1.65 DPS  272414 Howler's Furs
+    wrist       -0.32 DPS  18375 Bracers of the Eclipse
+    trinket1    +0.54 DPS  280065 Behemoth Bones [Use: not in UseData]
+  sensitivity, ranged-only hit counted as 0: the same best set
+  not-modelled effects near the top (within 15 DPS of the chosen item, by D without the effect):
+    head       -11.89  8348 Helm of Fire [Use: not in UseData] :: Fireball (10578) [use]
+    neck        -8.56  1315 Lei of Lilies [not in opt/cands.json] [Use: not in UseData] :: Conjure Lily Root (18831) [use]
+    neck        -8.56  18340 Eidolon Talisman [not in opt/cands.json] [Use: not in UseData] :: Eidolon Ward (1302362) [use]
+    back        -6.31  10518 Parachute Cloak [Use: not in UseData] :: Slow Fall (12438) [use]
+    back        -9.35  284262 Howling Hide [not in opt/cands.json] [has proc: not modelled] :: Howler's Cry (1315767) [proc]
+    back        -9.38  14134 Cloak of Fire [not in opt/cands.json] [Use: not in UseData] :: Cloak of Fire (18364) [use]
+    back        -9.38  9397 Energy Cloak [not in opt/cands.json] [Use: not in UseData] :: Energize (1294025) [use]
+    wrist       -7.49  273293 Bandsaw Wristbands [not in opt/cands.json] [has proc: not modelled] :: Spikes (1292039) [proc]
+    hands       -4.35  867 Gloves of Holy Might [has proc: not modelled] :: Gloves of Holy Might (1330855) [proc]
+    hands       -7.35  10760 Swine Fists [has proc: not modelled] :: Swine Fists (1293783) [proc]
+    hands       -7.75  274159 Thorncursed Grips [not in opt/cands.json] [has proc: not modelled] :: Thorncurse (1293331) [proc]
+    hands       -7.76  8346 Gauntlets of the Sea [not in opt/cands.json] [Use: not in UseData] :: Heal (10577) [use]
+    hands       -8.93  12632 Storm Gauntlets [has proc: not modelled] :: Lightning Strike (16615) [proc]
+    waist      -12.34  4262 Gem-studded Leather Belt [not in opt/cands.json] [Use: not in UseData] :: Heal Self (9163) [use]
+    waist      -13.20  11861 Girdle of Reprisal [not in opt/cands.json] [has proc: not modelled] :: Shadow Bolt (7617) [proc]
+    waist      -13.21  4264 Barbaric Belt [not in opt/cands.json] [Use: not in UseData] :: Rage (9174) [use]
+    waist      -13.23  10721 Gnomish Harm Prevention Belt [not in opt/cands.json] [Use: not in UseData] :: Harm Prevention Belt (13234) [use]
+    waist      -13.23  273089 Slither Cord [not in opt/cands.json] [Use: not in UseData] :: Escape Root (1291758) [use]
+    feet       -13.44  7189 Goblin Rocket Boots [not in opt/cands.json] [Use: not in UseData] :: Goblin Rocket Boots (8892) [use]
+    feet       -13.44  10724 Gnomish Rocket Boots [not in opt/cands.json] [Use: not in UseData] :: Gnomish Rocket Boots (13141) [use]
+    feet       -13.44  7391 Swift Boots [not in opt/cands.json] [Use: not in UseData] :: Running Speed (9175) [use]
+    feet       -13.44  18047 Flame Walkers [not in opt/cands.json] [Use: not in UseData] :: Flame Walker (1301625) [use]
+    finger1    -11.89  942 Freezing Band [not in opt/cands.json] [has proc: not modelled] :: Freeze (18799) [proc]
+    finger1    -11.89  1447 Ring of Saviors [not in opt/cands.json] [Use: not in UseData] :: Savior's Sacrifice (18826) [use]
+    finger1    -11.89  13143 Mark of the Dragon Lord [not in opt/cands.json] [Use: not in UseData] :: Mark of the Dragon Lord (17252) [use]
+    finger2    -10.56  942 Freezing Band [not in opt/cands.json] [has proc: not modelled] :: Freeze (18799) [proc]
+    finger2    -10.56  1447 Ring of Saviors [not in opt/cands.json] [Use: not in UseData] :: Savior's Sacrifice (18826) [use]
+    finger2    -10.56  13143 Mark of the Dragon Lord [not in opt/cands.json] [Use: not in UseData] :: Mark of the Dragon Lord (17252) [use]
+    trinket1    -0.52  13965 Blackhand's Breadth [Use: not in UseData] :: Blackhand's Breadth (1318944) [use]; Blackhand's Breadth (1318945)
+    trinket1    -0.60  18537 Counterattack Lodestone [Use: not in UseData] :: Magnetize (1302356) [use]
+    trinket1    -1.32  272437 Adaptive Combat Assistant [not in opt/cands.json] [Use: not in UseData] :: Damage Sigmoid (1291097) [use]
+    trinket1    -2.42  19992 Devilsaur Tooth [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Tooth (24353) [use]
+    trinket1    -2.72  19991 Devilsaur Eye [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Glare (24352) [use]
+    trinket2    -0.56  13213 Smolderweb's Eye [Use: not in UseData] :: Mother's Watch (1308917) [use]
+    trinket2    -1.13  13965 Blackhand's Breadth [Use: not in UseData] :: Blackhand's Breadth (1318944) [use]; Blackhand's Breadth (1318945)
+    trinket2    -1.24  18537 Counterattack Lodestone [Use: not in UseData] :: Magnetize (1302356) [use]
+    trinket2    -1.92  272437 Adaptive Combat Assistant [not in opt/cands.json] [Use: not in UseData] :: Damage Sigmoid (1291097) [use]
+    trinket2    -3.04  19992 Devilsaur Tooth [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Tooth (24353) [use]
+    mainhand    -4.06  18538 Treant's Bane [has proc: not modelled] :: Treant Slayer (1302354) [proc]
+    mainhand    -7.61  11750 Kindling Stave [has proc: not modelled] :: Ignition (1300781) [proc]
+    mainhand    -8.59  1263 Brain Hacker [has proc: not modelled] :: Brain Hacker (17148) [proc]
+    mainhand    -8.71  18324 Waveslicer [has proc: not modelled] :: Waveslicer (1302166) [proc]
+    mainhand    -9.46  3854 Frost Tiger Blade [has proc: not modelled] :: Frostbolt (13439) [proc]
+    ranged      -6.65  18755 Xorothian Firestick [has proc: not modelled] :: Xorothian Fire (1302343) [proc]
+    ranged      -7.32  2099 Dwarven Hand Cannon [has proc: not modelled] :: Flaming Cannonball (29639) [proc]
+    ranged      -7.96  18388 Stoneshatter [has proc: not modelled] :: Stoneshatter (1302279) [proc]
+    ranged      -9.81  13146 Shell Launcher Shotgun [has proc: not modelled] :: Flaming Shell (29647) [proc]
+    ranged      -9.85  13040 Heartseeking Crossbow [has proc: not modelled] :: Shadowbolt (29626) [proc]
+  W at current A (unit RAP = 0.1505 DPS; model DPS at the point 510.8):
+    per point (RAP units): AGI 2.597  AP 1.015  RAP 1.000  INT 1.015  STR 0.015  HIT/1% 34.60  HIT_RANGED/1% 21.10  CRIT/1% 30.58  RANGED_DPS 9.33  HASTE/1% 22.00  EXPERTISE/1% 23.25
+    normalized to Agi = 1:  AP 0.391  RAP 0.385  INT 0.391  hit/rating 1.333  crit/rating 0.841  ranged DPS 3.592
+    old Turret EP (Agi = 1):  AP/RAP 0.340  INT 0.420  hit/rating 1.140  crit/rating 0.840  ranged DPS 2.870
+  W at best-by-D set (unit RAP = 0.1486 DPS; model DPS at the point 509.6):
+    per point (RAP units): AGI 2.612  AP 1.015  RAP 1.000  INT 1.015  STR 0.015  HIT/1% 34.94  HIT_RANGED/1% 21.33  CRIT/1% 31.36  RANGED_DPS 9.33  HASTE/1% 22.28  EXPERTISE/1% 23.39
+    normalized to Agi = 1:  AP 0.389  RAP 0.383  INT 0.389  hit/rating 1.338  crit/rating 0.858  ranged DPS 3.572
+    old Turret EP (Agi = 1):  AP/RAP 0.340  INT 0.420  hit/rating 1.140  crit/rating 0.840  ranged DPS 2.870
+======================================================================================================================
+VARIANT B, target +3 (hit cap 8.0%)
+  candidates over the 17 slots: 3859
+  [parse] SetValue iteration 1: best set's SetValue gain over the worn set 19.152 (2.84 DPS by W)
+  [parse] SetValue iteration 2: best set's SetValue gain over the worn set 8.151 (1.19 DPS by W)
+  [parse] SetValue iteration 3: best set's SetValue gain over the worn set 0.000 (0.00 DPS by W)
+  [api_ap] SetValue iteration 1: best set's SetValue gain over the worn set 19.152 (2.84 DPS by W)
+  [api_ap] SetValue iteration 2: best set's SetValue gain over the worn set 8.151 (1.19 DPS by W)
+  [api_ap] SetValue iteration 3: best set's SetValue gain over the worn set 0.000 (0.00 DPS by W)
+  D(current B) = 496.65 DPS   [hit 7.00% (+1.00% ranged-only), crit 17.20%, RAP 1267, MAP 777, Agi 328, bow DPS 32.2 @1.80]
+  D(best by D) = 497.52 DPS  (found from start: SetValue fixed point [parse]; differs from current)
+  BEST SET BY D (model DPS):
+  hit 7.90% (+0.00% ranged-only), crit 16.16%, RAP 1295, MAP 807, Agi 326, bow DPS 32.2 @1.80
+  head      252605 Black Dragonscale Helm
+  neck      15411 Mark of Fordring
+  shoulder  16708 Shadowcraft Spaulders   <- was 18742 Stratholme Militia Shoulderguard
+  back      13340 Cape of the Black Baron
+  chest     252483 Dawn Armor
+  wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+  hands     15063 Devilsaur Gauntlets
+  waist     22232 Marksman's Girdle
+  legs      15062 Devilsaur Leggings
+  feet      13967 Windreaver Greaves
+  finger1   272408 Cutthroat's Signet
+  finger2   18500 Tarnished Elven Ring
+  trinket1  19120 Rune of the Guard Captain   <- was 13965 Blackhand's Breadth [Use: not in UseData]
+  trinket2  280065 Behemoth Bones [Use: not in UseData]
+  mainhand  274419 Bear Poking Stick
+  offhand   -
+  ranged    13023 Eaglehorn Long Bow
+  SetValue fixed point [parse]: D = 497.52 DPS (+0.87 vs current); differs from current; same as best by D
+    shoulder  16708 Shadowcraft Spaulders   <- was 18742 Stratholme Militia Shoulderguard
+    wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+    trinket1  19120 Rune of the Guard Captain   <- was 13965 Blackhand's Breadth [Use: not in UseData]
+  SetValue fixed point [api_ap]: D = 497.52 DPS (+0.87 vs current); differs from current; same as best by D
+    shoulder  16708 Shadowcraft Spaulders   <- was 18742 Stratholme Militia Shoulderguard
+    wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+    trinket1  19120 Rune of the Guard Captain   <- was 13965 Blackhand's Breadth [Use: not in UseData]
+  single-slot swaps, current set -> best-by-D item in that slot alone (D gain):
+    shoulder    -0.50 DPS  16708 Shadowcraft Spaulders
+    wrist       -0.27 DPS  18375 Bracers of the Eclipse
+    trinket1    -1.13 DPS  19120 Rune of the Guard Captain
+  sensitivity, ranged-only hit counted as 0: the same best set
+  not-modelled effects near the top (within 15 DPS of the chosen item, by D without the effect):
+    head       -11.77  8348 Helm of Fire [Use: not in UseData] :: Fireball (10578) [use]
+    neck        -8.49  1315 Lei of Lilies [not in opt/cands.json] [Use: not in UseData] :: Conjure Lily Root (18831) [use]
+    neck        -8.49  18340 Eidolon Talisman [not in opt/cands.json] [Use: not in UseData] :: Eidolon Ward (1302362) [use]
+    back        -5.65  10518 Parachute Cloak [Use: not in UseData] :: Slow Fall (12438) [use]
+    back        -8.67  284262 Howling Hide [not in opt/cands.json] [has proc: not modelled] :: Howler's Cry (1315767) [proc]
+    back        -8.70  14134 Cloak of Fire [not in opt/cands.json] [Use: not in UseData] :: Cloak of Fire (18364) [use]
+    back        -8.70  9397 Energy Cloak [not in opt/cands.json] [Use: not in UseData] :: Energize (1294025) [use]
+    wrist       -7.39  273293 Bandsaw Wristbands [not in opt/cands.json] [has proc: not modelled] :: Spikes (1292039) [proc]
+    hands      -12.75  867 Gloves of Holy Might [has proc: not modelled] :: Gloves of Holy Might (1330855) [proc]
+    hands      -13.76  12632 Storm Gauntlets [has proc: not modelled] :: Lightning Strike (16615) [proc]
+    waist      -12.12  4262 Gem-studded Leather Belt [not in opt/cands.json] [Use: not in UseData] :: Heal Self (9163) [use]
+    waist      -12.98  11861 Girdle of Reprisal [not in opt/cands.json] [has proc: not modelled] :: Shadow Bolt (7617) [proc]
+    waist      -12.98  4264 Barbaric Belt [not in opt/cands.json] [Use: not in UseData] :: Rage (9174) [use]
+    waist      -13.00  10721 Gnomish Harm Prevention Belt [not in opt/cands.json] [Use: not in UseData] :: Harm Prevention Belt (13234) [use]
+    waist      -13.00  273089 Slither Cord [not in opt/cands.json] [Use: not in UseData] :: Escape Root (1291758) [use]
+    feet       -13.21  7189 Goblin Rocket Boots [not in opt/cands.json] [Use: not in UseData] :: Goblin Rocket Boots (8892) [use]
+    feet       -13.21  10724 Gnomish Rocket Boots [not in opt/cands.json] [Use: not in UseData] :: Gnomish Rocket Boots (13141) [use]
+    feet       -13.21  7391 Swift Boots [not in opt/cands.json] [Use: not in UseData] :: Running Speed (9175) [use]
+    feet       -13.21  18047 Flame Walkers [not in opt/cands.json] [Use: not in UseData] :: Flame Walker (1301625) [use]
+    finger1    -10.36  942 Freezing Band [not in opt/cands.json] [has proc: not modelled] :: Freeze (18799) [proc]
+    finger1    -10.36  1447 Ring of Saviors [not in opt/cands.json] [Use: not in UseData] :: Savior's Sacrifice (18826) [use]
+    finger1    -10.36  13143 Mark of the Dragon Lord [not in opt/cands.json] [Use: not in UseData] :: Mark of the Dragon Lord (17252) [use]
+    finger2     -8.85  942 Freezing Band [not in opt/cands.json] [has proc: not modelled] :: Freeze (18799) [proc]
+    finger2     -8.85  1447 Ring of Saviors [not in opt/cands.json] [Use: not in UseData] :: Savior's Sacrifice (18826) [use]
+    finger2     -8.85  13143 Mark of the Dragon Lord [not in opt/cands.json] [Use: not in UseData] :: Mark of the Dragon Lord (17252) [use]
+    trinket1    -1.02  13965 Blackhand's Breadth [Use: not in UseData] :: Blackhand's Breadth (1318944) [use]; Blackhand's Breadth (1318945)
+    trinket1    -1.18  18537 Counterattack Lodestone [Use: not in UseData] :: Magnetize (1302356) [use]
+    trinket1    -1.58  13213 Smolderweb's Eye [Use: not in UseData] :: Mother's Watch (1308917) [use]
+    trinket1    -1.86  272437 Adaptive Combat Assistant [not in opt/cands.json] [Use: not in UseData] :: Damage Sigmoid (1291097) [use]
+    trinket1    -2.95  19992 Devilsaur Tooth [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Tooth (24353) [use]
+    trinket2    -0.46  13965 Blackhand's Breadth [Use: not in UseData] :: Blackhand's Breadth (1318944) [use]; Blackhand's Breadth (1318945)
+    trinket2    -0.59  18537 Counterattack Lodestone [Use: not in UseData] :: Magnetize (1302356) [use]
+    trinket2    -1.32  272437 Adaptive Combat Assistant [not in opt/cands.json] [Use: not in UseData] :: Damage Sigmoid (1291097) [use]
+    trinket2    -2.38  19992 Devilsaur Tooth [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Tooth (24353) [use]
+    trinket2    -2.68  19991 Devilsaur Eye [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Glare (24352) [use]
+    mainhand    -3.91  18538 Treant's Bane [has proc: not modelled] :: Treant Slayer (1302354) [proc]
+    mainhand    -7.46  11750 Kindling Stave [has proc: not modelled] :: Ignition (1300781) [proc]
+    mainhand    -8.43  1263 Brain Hacker [has proc: not modelled] :: Brain Hacker (17148) [proc]
+    mainhand    -8.55  18324 Waveslicer [has proc: not modelled] :: Waveslicer (1302166) [proc]
+    mainhand    -9.29  3854 Frost Tiger Blade [has proc: not modelled] :: Frostbolt (13439) [proc]
+    ranged      -6.48  18755 Xorothian Firestick [has proc: not modelled] :: Xorothian Fire (1302343) [proc]
+    ranged      -7.12  2099 Dwarven Hand Cannon [has proc: not modelled] :: Flaming Cannonball (29639) [proc]
+    ranged      -8.36  18388 Stoneshatter [has proc: not modelled] :: Stoneshatter (1302279) [proc]
+    ranged      -9.59  13040 Heartseeking Crossbow [has proc: not modelled] :: Shadowbolt (29626) [proc]
+    ranged      -9.62  13146 Shell Launcher Shotgun [has proc: not modelled] :: Flaming Shell (29647) [proc]
+  W at current B (unit RAP = 0.1480 DPS; model DPS at the point 498.6):
+    per point (RAP units): AGI 2.606  AP 1.015  RAP 1.000  INT 1.015  STR 0.015  HIT/1% 34.24  HIT_RANGED/1% 20.78  CRIT/1% 31.08  RANGED_DPS 9.33  HASTE/1% 21.85  EXPERTISE/1% 23.17
+    normalized to Agi = 1:  AP 0.390  RAP 0.384  INT 0.390  hit/rating 1.314  crit/rating 0.852  ranged DPS 3.580
+    old Turret EP (Agi = 1):  AP/RAP 0.340  INT 0.420  hit/rating 1.140  crit/rating 0.840  ranged DPS 2.870
+  W at best-by-D set (unit RAP = 0.1464 DPS; model DPS at the point 497.5):
+    per point (RAP units): AGI 2.619  AP 1.015  RAP 1.000  INT 1.015  STR 0.015  HIT/1% 34.56  HIT_RANGED/1% 21.00  CRIT/1% 31.75  RANGED_DPS 9.33  HASTE/1% 22.08  EXPERTISE/1% 23.30
+    normalized to Agi = 1:  AP 0.388  RAP 0.382  INT 0.388  hit/rating 1.319  crit/rating 0.866  ranged DPS 3.564
+    old Turret EP (Agi = 1):  AP/RAP 0.340  INT 0.420  hit/rating 1.140  crit/rating 0.840  ranged DPS 2.870
+======================================================================================================================
+VARIANT A, target +2 (hit cap 6.0%)
+  candidates over the 17 slots: 3914
+  [parse] SetValue iteration 1: best set's SetValue gain over the worn set 61.513 (9.54 DPS by W)
+  [parse] SetValue iteration 2: best set's SetValue gain over the worn set 13.823 (2.12 DPS by W)
+  [parse] SetValue iteration 3: best set's SetValue gain over the worn set 0.000 (0.00 DPS by W)
+  [api_ap] SetValue iteration 1: best set's SetValue gain over the worn set 61.513 (9.54 DPS by W)
+  [api_ap] SetValue iteration 2: best set's SetValue gain over the worn set 13.823 (2.12 DPS by W)
+  [api_ap] SetValue iteration 3: best set's SetValue gain over the worn set 0.000 (0.00 DPS by W)
+  D(current A) = 532.94 DPS   [hit 6.70% (+1.00% ranged-only), crit 19.28%, RAP 1295, MAP 759, Agi 385, bow DPS 32.2 @1.80]
+  D(best by D) = 539.07 DPS  (found from start: set 2131 Partners in Crime; differs from current)
+  BEST SET BY D (model DPS):
+  hit 6.00% (+0.00% ranged-only), crit 19.24%, RAP 1335, MAP 801, Agi 383, bow DPS 32.2 @1.80
+  head      252605 Black Dragonscale Helm
+  neck      15411 Mark of Fordring
+  shoulder  272105 Darkspear Pauldrons [Exalted]
+  back      13340 Cape of the Black Baron
+  chest     252483 Dawn Armor
+  wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+  hands     272099 Raider Gloves [Exalted]
+  waist     22232 Marksman's Girdle
+  legs      22673 Outrider's Chain Leggings [Exalted]
+  feet      13967 Windreaver Greaves
+  finger1   19325 Don Julio's Band [Exalted]
+  finger2   272408 Cutthroat's Signet
+  trinket1  13965 Blackhand's Breadth [Use: not in UseData]
+  trinket2  280065 Behemoth Bones [Use: not in UseData]   <- was 19120 Rune of the Guard Captain
+  mainhand  274419 Bear Poking Stick
+  offhand   -
+  ranged    13023 Eaglehorn Long Bow
+  SetValue fixed point [parse]: D = 539.07 DPS (+6.12 vs current); differs from current; same as best by D
+    wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+    trinket2  280065 Behemoth Bones [Use: not in UseData]   <- was 19120 Rune of the Guard Captain
+  SetValue fixed point [api_ap]: D = 539.07 DPS (+6.12 vs current); differs from current; same as best by D
+    wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+    trinket2  280065 Behemoth Bones [Use: not in UseData]   <- was 19120 Rune of the Guard Captain
+  single-slot swaps, current set -> best-by-D item in that slot alone (D gain):
+    wrist       +2.97 DPS  18375 Bracers of the Eclipse
+    trinket2    +3.15 DPS  280065 Behemoth Bones [Use: not in UseData]
+  sensitivity, ranged-only hit counted as 0: the same best set
+  not-modelled effects near the top (within 15 DPS of the chosen item, by D without the effect):
+    head       -12.36  8348 Helm of Fire [Use: not in UseData] :: Fireball (10578) [use]
+    neck        -8.89  1315 Lei of Lilies [not in opt/cands.json] [Use: not in UseData] :: Conjure Lily Root (18831) [use]
+    neck        -8.89  18340 Eidolon Talisman [not in opt/cands.json] [Use: not in UseData] :: Eidolon Ward (1302362) [use]
+    back        -5.97  10518 Parachute Cloak [Use: not in UseData] :: Slow Fall (12438) [use]
+    back        -9.15  284262 Howling Hide [not in opt/cands.json] [has proc: not modelled] :: Howler's Cry (1315767) [proc]
+    back        -9.18  14134 Cloak of Fire [not in opt/cands.json] [Use: not in UseData] :: Cloak of Fire (18364) [use]
+    back        -9.18  9397 Energy Cloak [not in opt/cands.json] [Use: not in UseData] :: Energize (1294025) [use]
+    wrist       -7.80  273293 Bandsaw Wristbands [not in opt/cands.json] [has proc: not modelled] :: Spikes (1292039) [proc]
+    hands       -4.56  867 Gloves of Holy Might [has proc: not modelled] :: Gloves of Holy Might (1330855) [proc]
+    hands       -7.66  10760 Swine Fists [has proc: not modelled] :: Swine Fists (1293783) [proc]
+    hands       -8.07  274159 Thorncursed Grips [not in opt/cands.json] [has proc: not modelled] :: Thorncurse (1293331) [proc]
+    hands       -8.08  8346 Gauntlets of the Sea [not in opt/cands.json] [Use: not in UseData] :: Heal (10577) [use]
+    hands      -10.89  12632 Storm Gauntlets [has proc: not modelled] :: Lightning Strike (16615) [proc]
+    waist      -12.91  4262 Gem-studded Leather Belt [not in opt/cands.json] [Use: not in UseData] :: Heal Self (9163) [use]
+    waist      -13.82  11861 Girdle of Reprisal [not in opt/cands.json] [has proc: not modelled] :: Shadow Bolt (7617) [proc]
+    waist      -13.82  4264 Barbaric Belt [not in opt/cands.json] [Use: not in UseData] :: Rage (9174) [use]
+    waist      -13.84  10721 Gnomish Harm Prevention Belt [not in opt/cands.json] [Use: not in UseData] :: Harm Prevention Belt (13234) [use]
+    waist      -13.84  273089 Slither Cord [not in opt/cands.json] [Use: not in UseData] :: Escape Root (1291758) [use]
+    feet       -14.07  7189 Goblin Rocket Boots [not in opt/cands.json] [Use: not in UseData] :: Goblin Rocket Boots (8892) [use]
+    feet       -14.07  10724 Gnomish Rocket Boots [not in opt/cands.json] [Use: not in UseData] :: Gnomish Rocket Boots (13141) [use]
+    feet       -14.07  7391 Swift Boots [not in opt/cands.json] [Use: not in UseData] :: Running Speed (9175) [use]
+    feet       -14.07  18047 Flame Walkers [not in opt/cands.json] [Use: not in UseData] :: Flame Walker (1301625) [use]
+    finger1    -12.42  942 Freezing Band [not in opt/cands.json] [has proc: not modelled] :: Freeze (18799) [proc]
+    finger1    -12.42  1447 Ring of Saviors [not in opt/cands.json] [Use: not in UseData] :: Savior's Sacrifice (18826) [use]
+    finger1    -12.42  13143 Mark of the Dragon Lord [not in opt/cands.json] [Use: not in UseData] :: Mark of the Dragon Lord (17252) [use]
+    finger2    -11.06  942 Freezing Band [not in opt/cands.json] [has proc: not modelled] :: Freeze (18799) [proc]
+    finger2    -11.06  1447 Ring of Saviors [not in opt/cands.json] [Use: not in UseData] :: Savior's Sacrifice (18826) [use]
+    finger2    -11.06  13143 Mark of the Dragon Lord [not in opt/cands.json] [Use: not in UseData] :: Mark of the Dragon Lord (17252) [use]
+    trinket1    -0.15  18537 Counterattack Lodestone [Use: not in UseData] :: Magnetize (1302356) [use]
+    trinket1    -0.64  272437 Adaptive Combat Assistant [not in opt/cands.json] [Use: not in UseData] :: Damage Sigmoid (1291097) [use]
+    trinket1    -2.02  19992 Devilsaur Tooth [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Tooth (24353) [use]
+    trinket1    -2.34  19991 Devilsaur Eye [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Glare (24352) [use]
+    trinket1    -2.60  280074 Scalding Flamehoof [not in opt/cands.json] [Use: not in UseData] :: Scalding Flamehoof (1309551) [use]
+    trinket2    -0.63  18537 Counterattack Lodestone [Use: not in UseData] :: Magnetize (1302356) [use]
+    trinket2    -1.14  272437 Adaptive Combat Assistant [not in opt/cands.json] [Use: not in UseData] :: Damage Sigmoid (1291097) [use]
+    trinket2    -2.53  19992 Devilsaur Tooth [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Tooth (24353) [use]
+    trinket2    -2.83  19991 Devilsaur Eye [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Glare (24352) [use]
+    trinket2    -3.10  280074 Scalding Flamehoof [not in opt/cands.json] [Use: not in UseData] :: Scalding Flamehoof (1309551) [use]
+    mainhand    -4.21  18538 Treant's Bane [has proc: not modelled] :: Treant Slayer (1302354) [proc]
+    mainhand    -7.92  11750 Kindling Stave [has proc: not modelled] :: Ignition (1300781) [proc]
+    mainhand    -8.97  1263 Brain Hacker [has proc: not modelled] :: Brain Hacker (17148) [proc]
+    mainhand    -9.10  18324 Waveslicer [has proc: not modelled] :: Waveslicer (1302166) [proc]
+    mainhand    -9.91  3854 Frost Tiger Blade [has proc: not modelled] :: Frostbolt (13439) [proc]
+    ranged      -7.07  18755 Xorothian Firestick [has proc: not modelled] :: Xorothian Fire (1302343) [proc]
+    ranged      -7.81  2099 Dwarven Hand Cannon [has proc: not modelled] :: Flaming Cannonball (29639) [proc]
+    ranged      -9.44  18388 Stoneshatter [has proc: not modelled] :: Stoneshatter (1302279) [proc]
+    ranged     -10.30  13146 Shell Launcher Shotgun [has proc: not modelled] :: Flaming Shell (29647) [proc]
+    ranged     -10.47  13040 Heartseeking Crossbow [has proc: not modelled] :: Shadowbolt (29626) [proc]
+  W at current A (unit RAP = 0.1550 DPS; model DPS at the point 532.9):
+    per point (RAP units): AGI 2.601  AP 1.016  RAP 1.000  INT 1.016  STR 0.016  HIT/1% 34.91  HIT_RANGED/1% 20.56  CRIT/1% 30.75  RANGED_DPS 9.33  HASTE/1% 22.74  EXPERTISE/1% 24.66
+    normalized to Agi = 1:  AP 0.391  RAP 0.385  INT 0.391  hit/rating 1.343  crit/rating 0.845  ranged DPS 3.588
+    old Turret EP (Agi = 1):  AP/RAP 0.340  INT 0.420  hit/rating 1.140  crit/rating 0.840  ranged DPS 2.870
+  W at best-by-D set (unit RAP = 0.1550 DPS; model DPS at the point 539.1):
+    per point (RAP units): AGI 2.608  AP 1.016  RAP 1.000  INT 1.016  STR 0.016  HIT/1% 35.32  HIT_RANGED/1% 20.87  CRIT/1% 31.13  RANGED_DPS 9.33  HASTE/1% 23.05  EXPERTISE/1% 24.79
+    normalized to Agi = 1:  AP 0.390  RAP 0.383  INT 0.390  hit/rating 1.354  crit/rating 0.853  ranged DPS 3.578
+    old Turret EP (Agi = 1):  AP/RAP 0.340  INT 0.420  hit/rating 1.140  crit/rating 0.840  ranged DPS 2.870
+======================================================================================================================
+VARIANT B, target +2 (hit cap 6.0%)
+  candidates over the 17 slots: 3859
+  [parse] SetValue iteration 1: best set's SetValue gain over the worn set 58.558 (8.91 DPS by W)
+  [parse] SetValue iteration 2: best set's SetValue gain over the worn set 17.989 (2.73 DPS by W)
+  [parse] SetValue iteration 3: best set's SetValue gain over the worn set 0.000 (0.00 DPS by W)
+  [api_ap] SetValue iteration 1: best set's SetValue gain over the worn set 58.558 (8.91 DPS by W)
+  [api_ap] SetValue iteration 2: best set's SetValue gain over the worn set 17.989 (2.73 DPS by W)
+  [api_ap] SetValue iteration 3: best set's SetValue gain over the worn set 0.000 (0.00 DPS by W)
+  D(current B) = 518.79 DPS   [hit 7.00% (+1.00% ranged-only), crit 17.20%, RAP 1267, MAP 777, Agi 328, bow DPS 32.2 @1.80]
+  D(best by D) = 525.06 DPS  (found from start: current; differs from current)
+  BEST SET BY D (model DPS):
+  hit 6.00% (+0.00% ranged-only), crit 17.22%, RAP 1307, MAP 816, Agi 329, bow DPS 32.2 @1.80
+  head      252605 Black Dragonscale Helm
+  neck      15411 Mark of Fordring
+  shoulder  18742 Stratholme Militia Shoulderguard
+  back      13340 Cape of the Black Baron
+  chest     252483 Dawn Armor
+  wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+  hands     15063 Devilsaur Gauntlets
+  waist     272397 Ranger's Belt   <- was 22232 Marksman's Girdle
+  legs      15062 Devilsaur Leggings
+  feet      13967 Windreaver Greaves
+  finger1   272408 Cutthroat's Signet
+  finger2   18500 Tarnished Elven Ring
+  trinket1  13965 Blackhand's Breadth [Use: not in UseData]
+  trinket2  280065 Behemoth Bones [Use: not in UseData]
+  mainhand  274419 Bear Poking Stick
+  offhand   -
+  ranged    13023 Eaglehorn Long Bow
+  SetValue fixed point [parse]: D = 525.06 DPS (+6.27 vs current); differs from current; same as best by D
+    wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+    waist     272397 Ranger's Belt   <- was 22232 Marksman's Girdle
+  SetValue fixed point [api_ap]: D = 525.06 DPS (+6.27 vs current); differs from current; same as best by D
+    wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+    waist     272397 Ranger's Belt   <- was 22232 Marksman's Girdle
+  single-slot swaps, current set -> best-by-D item in that slot alone (D gain):
+    wrist       +2.91 DPS  18375 Bracers of the Eclipse
+    waist       +3.35 DPS  272397 Ranger's Belt
+  sensitivity, ranged-only hit counted as 0: the same best set
+  not-modelled effects near the top (within 15 DPS of the chosen item, by D without the effect):
+    head       -12.22  8348 Helm of Fire [Use: not in UseData] :: Fireball (10578) [use]
+    neck        -8.81  1315 Lei of Lilies [not in opt/cands.json] [Use: not in UseData] :: Conjure Lily Root (18831) [use]
+    neck        -8.81  18340 Eidolon Talisman [not in opt/cands.json] [Use: not in UseData] :: Eidolon Ward (1302362) [use]
+    back        -5.87  10518 Parachute Cloak [Use: not in UseData] :: Slow Fall (12438) [use]
+    back        -9.01  284262 Howling Hide [not in opt/cands.json] [has proc: not modelled] :: Howler's Cry (1315767) [proc]
+    back        -9.04  14134 Cloak of Fire [not in opt/cands.json] [Use: not in UseData] :: Cloak of Fire (18364) [use]
+    back        -9.04  9397 Energy Cloak [not in opt/cands.json] [Use: not in UseData] :: Energize (1294025) [use]
+    wrist       -7.67  273293 Bandsaw Wristbands [not in opt/cands.json] [has proc: not modelled] :: Spikes (1292039) [proc]
+    hands      -13.39  867 Gloves of Holy Might [has proc: not modelled] :: Gloves of Holy Might (1330855) [proc]
+    hands      -14.35  12632 Storm Gauntlets [has proc: not modelled] :: Lightning Strike (16615) [proc]
+    waist      -10.75  4262 Gem-studded Leather Belt [not in opt/cands.json] [Use: not in UseData] :: Heal Self (9163) [use]
+    waist      -11.64  11861 Girdle of Reprisal [not in opt/cands.json] [has proc: not modelled] :: Shadow Bolt (7617) [proc]
+    waist      -11.64  4264 Barbaric Belt [not in opt/cands.json] [Use: not in UseData] :: Rage (9174) [use]
+    waist      -11.67  10721 Gnomish Harm Prevention Belt [not in opt/cands.json] [Use: not in UseData] :: Harm Prevention Belt (13234) [use]
+    waist      -11.67  273089 Slither Cord [not in opt/cands.json] [Use: not in UseData] :: Escape Root (1291758) [use]
+    feet       -13.80  7189 Goblin Rocket Boots [not in opt/cands.json] [Use: not in UseData] :: Goblin Rocket Boots (8892) [use]
+    feet       -13.80  10724 Gnomish Rocket Boots [not in opt/cands.json] [Use: not in UseData] :: Gnomish Rocket Boots (13141) [use]
+    feet       -13.80  7391 Swift Boots [not in opt/cands.json] [Use: not in UseData] :: Running Speed (9175) [use]
+    feet       -13.80  18047 Flame Walkers [not in opt/cands.json] [Use: not in UseData] :: Flame Walker (1301625) [use]
+    finger1    -10.84  942 Freezing Band [not in opt/cands.json] [has proc: not modelled] :: Freeze (18799) [proc]
+    finger1    -10.84  1447 Ring of Saviors [not in opt/cands.json] [Use: not in UseData] :: Savior's Sacrifice (18826) [use]
+    finger1    -10.84  13143 Mark of the Dragon Lord [not in opt/cands.json] [Use: not in UseData] :: Mark of the Dragon Lord (17252) [use]
+    finger2     -9.27  942 Freezing Band [not in opt/cands.json] [has proc: not modelled] :: Freeze (18799) [proc]
+    finger2     -9.27  1447 Ring of Saviors [not in opt/cands.json] [Use: not in UseData] :: Savior's Sacrifice (18826) [use]
+    finger2     -9.27  13143 Mark of the Dragon Lord [not in opt/cands.json] [Use: not in UseData] :: Mark of the Dragon Lord (17252) [use]
+    trinket1    -0.23  18537 Counterattack Lodestone [Use: not in UseData] :: Magnetize (1302356) [use]
+    trinket1    -0.71  272437 Adaptive Combat Assistant [not in opt/cands.json] [Use: not in UseData] :: Damage Sigmoid (1291097) [use]
+    trinket1    -2.06  19992 Devilsaur Tooth [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Tooth (24353) [use]
+    trinket1    -2.37  19991 Devilsaur Eye [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Glare (24352) [use]
+    trinket1    -2.62  280074 Scalding Flamehoof [not in opt/cands.json] [Use: not in UseData] :: Scalding Flamehoof (1309551) [use]
+    trinket2    -0.62  18537 Counterattack Lodestone [Use: not in UseData] :: Magnetize (1302356) [use]
+    trinket2    -1.13  272437 Adaptive Combat Assistant [not in opt/cands.json] [Use: not in UseData] :: Damage Sigmoid (1291097) [use]
+    trinket2    -2.47  19992 Devilsaur Tooth [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Tooth (24353) [use]
+    trinket2    -2.78  19991 Devilsaur Eye [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Glare (24352) [use]
+    trinket2    -3.04  280074 Scalding Flamehoof [not in opt/cands.json] [Use: not in UseData] :: Scalding Flamehoof (1309551) [use]
+    mainhand    -4.02  18538 Treant's Bane [has proc: not modelled] :: Treant Slayer (1302354) [proc]
+    mainhand    -7.74  11750 Kindling Stave [has proc: not modelled] :: Ignition (1300781) [proc]
+    mainhand    -8.76  1263 Brain Hacker [has proc: not modelled] :: Brain Hacker (17148) [proc]
+    mainhand    -8.89  18324 Waveslicer [has proc: not modelled] :: Waveslicer (1302166) [proc]
+    mainhand    -9.69  3854 Frost Tiger Blade [has proc: not modelled] :: Frostbolt (13439) [proc]
+    ranged      -6.87  18755 Xorothian Firestick [has proc: not modelled] :: Xorothian Fire (1302343) [proc]
+    ranged      -7.58  2099 Dwarven Hand Cannon [has proc: not modelled] :: Flaming Cannonball (29639) [proc]
+    ranged      -9.19  18388 Stoneshatter [has proc: not modelled] :: Stoneshatter (1302279) [proc]
+    ranged     -10.08  13146 Shell Launcher Shotgun [has proc: not modelled] :: Flaming Shell (29647) [proc]
+    ranged     -10.17  13040 Heartseeking Crossbow [has proc: not modelled] :: Shadowbolt (29626) [proc]
+  W at current B (unit RAP = 0.1521 DPS; model DPS at the point 518.8):
+    per point (RAP units): AGI 2.610  AP 1.016  RAP 1.000  INT 1.016  STR 0.016  HIT/1% 34.65  HIT_RANGED/1% 20.31  CRIT/1% 31.26  RANGED_DPS 9.34  HASTE/1% 22.58  EXPERTISE/1% 24.64
+    normalized to Agi = 1:  AP 0.389  RAP 0.383  INT 0.389  hit/rating 1.327  crit/rating 0.855  ranged DPS 3.577
+    old Turret EP (Agi = 1):  AP/RAP 0.340  INT 0.420  hit/rating 1.140  crit/rating 0.840  ranged DPS 2.870
+  W at best-by-D set (unit RAP = 0.1521 DPS; model DPS at the point 525.1):
+    per point (RAP units): AGI 2.617  AP 1.016  RAP 1.000  INT 1.016  STR 0.016  HIT/1% 35.05  HIT_RANGED/1% 20.61  CRIT/1% 31.63  RANGED_DPS 9.34  HASTE/1% 22.89  EXPERTISE/1% 24.77
+    normalized to Agi = 1:  AP 0.388  RAP 0.382  INT 0.388  hit/rating 1.339  crit/rating 0.863  ranged DPS 3.567
+    old Turret EP (Agi = 1):  AP/RAP 0.340  INT 0.420  hit/rating 1.140  crit/rating 0.840  ranged DPS 2.870
+======================================================================================================================
+VARIANT A, target +0 (hit cap 5.0%)
+  candidates over the 17 slots: 3914
+  [parse] SetValue iteration 1: best set's SetValue gain over the worn set 74.999 (11.88 DPS by W)
+  [parse] SetValue iteration 2: best set's SetValue gain over the worn set 22.555 (3.54 DPS by W)
+  [parse] SetValue iteration 3: best set's SetValue gain over the worn set 0.000 (0.00 DPS by W)
+  [api_ap] SetValue iteration 1: best set's SetValue gain over the worn set 74.999 (11.88 DPS by W)
+  [api_ap] SetValue iteration 2: best set's SetValue gain over the worn set 22.555 (3.54 DPS by W)
+  [api_ap] SetValue iteration 3: best set's SetValue gain over the worn set 0.000 (0.00 DPS by W)
+  D(current A) = 549.21 DPS   [hit 6.70% (+1.00% ranged-only), crit 19.28%, RAP 1295, MAP 759, Agi 385, bow DPS 32.2 @1.80]
+  D(best by D) = 558.96 DPS  (found from start: set 2131 Partners in Crime; differs from current)
+  BEST SET BY D (model DPS):
+  hit 5.00% (+0.00% ranged-only), crit 19.30%, RAP 1355, MAP 818, Agi 386, bow DPS 32.2 @1.80
+  head      252605 Black Dragonscale Helm
+  neck      15411 Mark of Fordring
+  shoulder  272105 Darkspear Pauldrons [Exalted]
+  back      13340 Cape of the Black Baron
+  chest     252483 Dawn Armor
+  wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+  hands     272099 Raider Gloves [Exalted]
+  waist     272397 Ranger's Belt   <- was 22232 Marksman's Girdle
+  legs      22673 Outrider's Chain Leggings [Exalted]
+  feet      13967 Windreaver Greaves
+  finger1   19325 Don Julio's Band [Exalted]
+  finger2   272408 Cutthroat's Signet
+  trinket1  13965 Blackhand's Breadth [Use: not in UseData]
+  trinket2  280065 Behemoth Bones [Use: not in UseData]   <- was 19120 Rune of the Guard Captain
+  mainhand  274419 Bear Poking Stick
+  offhand   -
+  ranged    13023 Eaglehorn Long Bow
+  SetValue fixed point [parse]: D = 558.96 DPS (+9.75 vs current); differs from current; same as best by D
+    wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+    waist     272397 Ranger's Belt   <- was 22232 Marksman's Girdle
+    trinket2  280065 Behemoth Bones [Use: not in UseData]   <- was 19120 Rune of the Guard Captain
+  SetValue fixed point [api_ap]: D = 558.96 DPS (+9.75 vs current); differs from current; same as best by D
+    wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+    waist     272397 Ranger's Belt   <- was 22232 Marksman's Girdle
+    trinket2  280065 Behemoth Bones [Use: not in UseData]   <- was 19120 Rune of the Guard Captain
+  single-slot swaps, current set -> best-by-D item in that slot alone (D gain):
+    wrist       +3.04 DPS  18375 Bracers of the Eclipse
+    waist       +3.49 DPS  272397 Ranger's Belt
+    trinket2    +3.22 DPS  280065 Behemoth Bones [Use: not in UseData]
+  sensitivity, ranged-only hit counted as 0: the same best set
+  not-modelled effects near the top (within 15 DPS of the chosen item, by D without the effect):
+    head       -12.69  8348 Helm of Fire [Use: not in UseData] :: Fireball (10578) [use]
+    neck        -9.14  1315 Lei of Lilies [not in opt/cands.json] [Use: not in UseData] :: Conjure Lily Root (18831) [use]
+    neck        -9.14  18340 Eidolon Talisman [not in opt/cands.json] [Use: not in UseData] :: Eidolon Ward (1302362) [use]
+    back        -6.11  10518 Parachute Cloak [Use: not in UseData] :: Slow Fall (12438) [use]
+    back        -9.38  284262 Howling Hide [not in opt/cands.json] [has proc: not modelled] :: Howler's Cry (1315767) [proc]
+    back        -9.41  14134 Cloak of Fire [not in opt/cands.json] [Use: not in UseData] :: Cloak of Fire (18364) [use]
+    back        -9.41  9397 Energy Cloak [not in opt/cands.json] [Use: not in UseData] :: Energize (1294025) [use]
+    wrist       -7.99  273293 Bandsaw Wristbands [not in opt/cands.json] [has proc: not modelled] :: Spikes (1292039) [proc]
+    hands       -4.64  867 Gloves of Holy Might [has proc: not modelled] :: Gloves of Holy Might (1330855) [proc]
+    hands       -7.85  10760 Swine Fists [has proc: not modelled] :: Swine Fists (1293783) [proc]
+    hands       -8.27  274159 Thorncursed Grips [not in opt/cands.json] [has proc: not modelled] :: Thorncurse (1293331) [proc]
+    hands       -8.28  8346 Gauntlets of the Sea [not in opt/cands.json] [Use: not in UseData] :: Heal (10577) [use]
+    hands      -11.16  12632 Storm Gauntlets [has proc: not modelled] :: Lightning Strike (16615) [proc]
+    waist      -11.18  4262 Gem-studded Leather Belt [not in opt/cands.json] [Use: not in UseData] :: Heal Self (9163) [use]
+    waist      -12.11  11861 Girdle of Reprisal [not in opt/cands.json] [has proc: not modelled] :: Shadow Bolt (7617) [proc]
+    waist      -12.12  4264 Barbaric Belt [not in opt/cands.json] [Use: not in UseData] :: Rage (9174) [use]
+    waist      -12.14  10721 Gnomish Harm Prevention Belt [not in opt/cands.json] [Use: not in UseData] :: Harm Prevention Belt (13234) [use]
+    waist      -12.14  273089 Slither Cord [not in opt/cands.json] [Use: not in UseData] :: Escape Root (1291758) [use]
+    feet       -14.45  7189 Goblin Rocket Boots [not in opt/cands.json] [Use: not in UseData] :: Goblin Rocket Boots (8892) [use]
+    feet       -14.45  10724 Gnomish Rocket Boots [not in opt/cands.json] [Use: not in UseData] :: Gnomish Rocket Boots (13141) [use]
+    feet       -14.45  7391 Swift Boots [not in opt/cands.json] [Use: not in UseData] :: Running Speed (9175) [use]
+    feet       -14.45  18047 Flame Walkers [not in opt/cands.json] [Use: not in UseData] :: Flame Walker (1301625) [use]
+    finger1    -12.79  942 Freezing Band [not in opt/cands.json] [has proc: not modelled] :: Freeze (18799) [proc]
+    finger1    -12.79  1447 Ring of Saviors [not in opt/cands.json] [Use: not in UseData] :: Savior's Sacrifice (18826) [use]
+    finger1    -12.79  13143 Mark of the Dragon Lord [not in opt/cands.json] [Use: not in UseData] :: Mark of the Dragon Lord (17252) [use]
+    finger2    -11.37  942 Freezing Band [not in opt/cands.json] [has proc: not modelled] :: Freeze (18799) [proc]
+    finger2    -11.37  1447 Ring of Saviors [not in opt/cands.json] [Use: not in UseData] :: Savior's Sacrifice (18826) [use]
+    finger2    -11.37  13143 Mark of the Dragon Lord [not in opt/cands.json] [Use: not in UseData] :: Mark of the Dragon Lord (17252) [use]
+    trinket1    -0.20  18537 Counterattack Lodestone [Use: not in UseData] :: Magnetize (1302356) [use]
+    trinket1    -0.59  272437 Adaptive Combat Assistant [not in opt/cands.json] [Use: not in UseData] :: Damage Sigmoid (1291097) [use]
+    trinket1    -2.11  19992 Devilsaur Tooth [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Tooth (24353) [use]
+    trinket1    -2.44  19991 Devilsaur Eye [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Glare (24352) [use]
+    trinket1    -2.70  280074 Scalding Flamehoof [not in opt/cands.json] [Use: not in UseData] :: Scalding Flamehoof (1309551) [use]
+    trinket2    -0.64  18537 Counterattack Lodestone [Use: not in UseData] :: Magnetize (1302356) [use]
+    trinket2    -1.06  272437 Adaptive Combat Assistant [not in opt/cands.json] [Use: not in UseData] :: Damage Sigmoid (1291097) [use]
+    trinket2    -2.58  19992 Devilsaur Tooth [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Tooth (24353) [use]
+    trinket2    -2.90  19991 Devilsaur Eye [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Glare (24352) [use]
+    trinket2    -3.17  280074 Scalding Flamehoof [not in opt/cands.json] [Use: not in UseData] :: Scalding Flamehoof (1309551) [use]
+    mainhand    -4.20  18538 Treant's Bane [has proc: not modelled] :: Treant Slayer (1302354) [proc]
+    mainhand    -8.07  11750 Kindling Stave [has proc: not modelled] :: Ignition (1300781) [proc]
+    mainhand    -9.14  1263 Brain Hacker [has proc: not modelled] :: Brain Hacker (17148) [proc]
+    mainhand    -9.28  18324 Waveslicer [has proc: not modelled] :: Waveslicer (1302166) [proc]
+    mainhand   -10.12  3854 Frost Tiger Blade [has proc: not modelled] :: Frostbolt (13439) [proc]
+    ranged      -7.36  18755 Xorothian Firestick [has proc: not modelled] :: Xorothian Fire (1302343) [proc]
+    ranged      -8.16  2099 Dwarven Hand Cannon [has proc: not modelled] :: Flaming Cannonball (29639) [proc]
+    ranged      -9.83  18388 Stoneshatter [has proc: not modelled] :: Stoneshatter (1302279) [proc]
+    ranged     -10.63  13146 Shell Launcher Shotgun [has proc: not modelled] :: Flaming Shell (29647) [proc]
+    ranged     -10.89  287026 Escape Plan [Use: not in UseData] :: Disarm (13534) [use]
+  W at current A (unit RAP = 0.1584 DPS; model DPS at the point 549.2):
+    per point (RAP units): AGI 2.604  AP 1.016  RAP 1.000  INT 1.016  STR 0.016  HIT/1% 34.99  HIT_RANGED/1% 20.29  CRIT/1% 30.89  RANGED_DPS 9.34  HASTE/1% 23.20  EXPERTISE/1% 25.25
+    normalized to Agi = 1:  AP 0.390  RAP 0.384  INT 0.390  hit/rating 1.344  crit/rating 0.847  ranged DPS 3.589
+    old Turret EP (Agi = 1):  AP/RAP 0.340  INT 0.420  hit/rating 1.140  crit/rating 0.840  ranged DPS 2.870
+  W at best-by-D set (unit RAP = 0.1585 DPS; model DPS at the point 559.0):
+    per point (RAP units): AGI 2.614  AP 1.016  RAP 1.000  INT 1.016  STR 0.016  HIT/1% 35.60  HIT_RANGED/1% 20.74  CRIT/1% 31.43  RANGED_DPS 9.34  HASTE/1% 23.66  EXPERTISE/1% 25.45
+    normalized to Agi = 1:  AP 0.389  RAP 0.383  INT 0.389  hit/rating 1.362  crit/rating 0.859  ranged DPS 3.575
+    old Turret EP (Agi = 1):  AP/RAP 0.340  INT 0.420  hit/rating 1.140  crit/rating 0.840  ranged DPS 2.870
+======================================================================================================================
+VARIANT B, target +0 (hit cap 5.0%)
+  candidates over the 17 slots: 3859
+  [parse] SetValue iteration 1: best set's SetValue gain over the worn set 64.186 (9.98 DPS by W)
+  [parse] SetValue iteration 2: best set's SetValue gain over the worn set 30.103 (4.66 DPS by W)
+  [parse] SetValue iteration 3: best set's SetValue gain over the worn set 0.000 (0.00 DPS by W)
+  [api_ap] SetValue iteration 1: best set's SetValue gain over the worn set 64.186 (9.98 DPS by W)
+  [api_ap] SetValue iteration 2: best set's SetValue gain over the worn set 30.103 (4.66 DPS by W)
+  [api_ap] SetValue iteration 3: best set's SetValue gain over the worn set 0.000 (0.00 DPS by W)
+  D(current B) = 534.69 DPS   [hit 7.00% (+1.00% ranged-only), crit 17.20%, RAP 1267, MAP 777, Agi 328, bow DPS 32.2 @1.80]
+  D(best by D) = 543.86 DPS  (found from start: set 2131 Partners in Crime; differs from current)
+  BEST SET BY D (model DPS):
+  hit 5.00% (+0.00% ranged-only), crit 18.03%, RAP 1299, MAP 818, Agi 319, bow DPS 32.2 @1.80
+  head      252605 Black Dragonscale Helm
+  neck      15411 Mark of Fordring
+  shoulder  18742 Stratholme Militia Shoulderguard
+  back      13340 Cape of the Black Baron
+  chest     252483 Dawn Armor
+  wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+  hands     15063 Devilsaur Gauntlets
+  waist     272397 Ranger's Belt   <- was 22232 Marksman's Girdle
+  legs      15062 Devilsaur Leggings
+  feet      13967 Windreaver Greaves
+  finger1   272408 Cutthroat's Signet
+  finger2   13098 Painweaver Band   <- was 18500 Tarnished Elven Ring
+  trinket1  13965 Blackhand's Breadth [Use: not in UseData]
+  trinket2  280065 Behemoth Bones [Use: not in UseData]
+  mainhand  274419 Bear Poking Stick
+  offhand   -
+  ranged    13023 Eaglehorn Long Bow
+  SetValue fixed point [parse]: D = 543.86 DPS (+9.17 vs current); differs from current; same as best by D
+    wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+    waist     272397 Ranger's Belt   <- was 22232 Marksman's Girdle
+    finger2   13098 Painweaver Band   <- was 18500 Tarnished Elven Ring
+  SetValue fixed point [api_ap]: D = 543.86 DPS (+9.17 vs current); differs from current; same as best by D
+    wrist     18375 Bracers of the Eclipse   <- was 18296 Marksman Bands
+    waist     272397 Ranger's Belt   <- was 22232 Marksman's Girdle
+    finger2   13098 Painweaver Band   <- was 18500 Tarnished Elven Ring
+  single-slot swaps, current set -> best-by-D item in that slot alone (D gain):
+    wrist       +2.98 DPS  18375 Bracers of the Eclipse
+    waist       +3.43 DPS  272397 Ranger's Belt
+    finger2     +2.71 DPS  13098 Painweaver Band
+  sensitivity, ranged-only hit counted as 0: the same best set
+  not-modelled effects near the top (within 15 DPS of the chosen item, by D without the effect):
+    head       -12.54  8348 Helm of Fire [Use: not in UseData] :: Fireball (10578) [use]
+    neck        -9.03  1315 Lei of Lilies [not in opt/cands.json] [Use: not in UseData] :: Conjure Lily Root (18831) [use]
+    neck        -9.03  18340 Eidolon Talisman [not in opt/cands.json] [Use: not in UseData] :: Eidolon Ward (1302362) [use]
+    back        -6.04  10518 Parachute Cloak [Use: not in UseData] :: Slow Fall (12438) [use]
+    back        -9.27  284262 Howling Hide [not in opt/cands.json] [has proc: not modelled] :: Howler's Cry (1315767) [proc]
+    back        -9.30  14134 Cloak of Fire [not in opt/cands.json] [Use: not in UseData] :: Cloak of Fire (18364) [use]
+    back        -9.30  9397 Energy Cloak [not in opt/cands.json] [Use: not in UseData] :: Energize (1294025) [use]
+    wrist       -7.90  273293 Bandsaw Wristbands [not in opt/cands.json] [has proc: not modelled] :: Spikes (1292039) [proc]
+    hands      -13.79  867 Gloves of Holy Might [has proc: not modelled] :: Gloves of Holy Might (1330855) [proc]
+    hands      -14.74  12632 Storm Gauntlets [has proc: not modelled] :: Lightning Strike (16615) [proc]
+    waist      -11.05  4262 Gem-studded Leather Belt [not in opt/cands.json] [Use: not in UseData] :: Heal Self (9163) [use]
+    waist      -11.97  11861 Girdle of Reprisal [not in opt/cands.json] [has proc: not modelled] :: Shadow Bolt (7617) [proc]
+    waist      -11.97  4264 Barbaric Belt [not in opt/cands.json] [Use: not in UseData] :: Rage (9174) [use]
+    waist      -12.00  10721 Gnomish Harm Prevention Belt [not in opt/cands.json] [Use: not in UseData] :: Harm Prevention Belt (13234) [use]
+    waist      -12.00  273089 Slither Cord [not in opt/cands.json] [Use: not in UseData] :: Escape Root (1291758) [use]
+    feet       -14.19  7189 Goblin Rocket Boots [not in opt/cands.json] [Use: not in UseData] :: Goblin Rocket Boots (8892) [use]
+    feet       -14.19  10724 Gnomish Rocket Boots [not in opt/cands.json] [Use: not in UseData] :: Gnomish Rocket Boots (13141) [use]
+    feet       -14.19  7391 Swift Boots [not in opt/cands.json] [Use: not in UseData] :: Running Speed (9175) [use]
+    feet       -14.19  18047 Flame Walkers [not in opt/cands.json] [Use: not in UseData] :: Flame Walker (1301625) [use]
+    finger1    -11.15  942 Freezing Band [not in opt/cands.json] [has proc: not modelled] :: Freeze (18799) [proc]
+    finger1    -11.15  1447 Ring of Saviors [not in opt/cands.json] [Use: not in UseData] :: Savior's Sacrifice (18826) [use]
+    finger1    -11.15  13143 Mark of the Dragon Lord [not in opt/cands.json] [Use: not in UseData] :: Mark of the Dragon Lord (17252) [use]
+    finger2     -6.82  942 Freezing Band [not in opt/cands.json] [has proc: not modelled] :: Freeze (18799) [proc]
+    finger2     -6.82  1447 Ring of Saviors [not in opt/cands.json] [Use: not in UseData] :: Savior's Sacrifice (18826) [use]
+    finger2     -6.82  13143 Mark of the Dragon Lord [not in opt/cands.json] [Use: not in UseData] :: Mark of the Dragon Lord (17252) [use]
+    trinket1    -0.20  18537 Counterattack Lodestone [Use: not in UseData] :: Magnetize (1302356) [use]
+    trinket1    -0.60  272437 Adaptive Combat Assistant [not in opt/cands.json] [Use: not in UseData] :: Damage Sigmoid (1291097) [use]
+    trinket1    -2.08  19992 Devilsaur Tooth [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Tooth (24353) [use]
+    trinket1    -2.41  19991 Devilsaur Eye [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Glare (24352) [use]
+    trinket1    -2.66  280074 Scalding Flamehoof [not in opt/cands.json] [Use: not in UseData] :: Scalding Flamehoof (1309551) [use]
+    trinket2    -0.64  18537 Counterattack Lodestone [Use: not in UseData] :: Magnetize (1302356) [use]
+    trinket2    -1.07  272437 Adaptive Combat Assistant [not in opt/cands.json] [Use: not in UseData] :: Damage Sigmoid (1291097) [use]
+    trinket2    -2.55  19992 Devilsaur Tooth [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Tooth (24353) [use]
+    trinket2    -2.87  19991 Devilsaur Eye [not in opt/cands.json] [Use: not in UseData] :: Devilsaur Glare (24352) [use]
+    trinket2    -3.13  280074 Scalding Flamehoof [not in opt/cands.json] [Use: not in UseData] :: Scalding Flamehoof (1309551) [use]
+    mainhand    -4.16  18538 Treant's Bane [has proc: not modelled] :: Treant Slayer (1302354) [proc]
+    mainhand    -7.98  11750 Kindling Stave [has proc: not modelled] :: Ignition (1300781) [proc]
+    mainhand    -9.04  1263 Brain Hacker [has proc: not modelled] :: Brain Hacker (17148) [proc]
+    mainhand    -9.18  18324 Waveslicer [has proc: not modelled] :: Waveslicer (1302166) [proc]
+    mainhand   -10.01  3854 Frost Tiger Blade [has proc: not modelled] :: Frostbolt (13439) [proc]
+    ranged      -7.10  18755 Xorothian Firestick [has proc: not modelled] :: Xorothian Fire (1302343) [proc]
+    ranged      -7.84  2099 Dwarven Hand Cannon [has proc: not modelled] :: Flaming Cannonball (29639) [proc]
+    ranged      -9.49  18388 Stoneshatter [has proc: not modelled] :: Stoneshatter (1302279) [proc]
+    ranged     -10.40  13146 Shell Launcher Shotgun [has proc: not modelled] :: Flaming Shell (29647) [proc]
+    ranged     -10.52  13040 Heartseeking Crossbow [has proc: not modelled] :: Shadowbolt (29626) [proc]
+  W at current B (unit RAP = 0.1555 DPS; model DPS at the point 534.7):
+    per point (RAP units): AGI 2.614  AP 1.016  RAP 1.000  INT 1.016  STR 0.016  HIT/1% 34.73  HIT_RANGED/1% 20.03  CRIT/1% 31.42  RANGED_DPS 9.35  HASTE/1% 23.04  EXPERTISE/1% 25.22
+    normalized to Agi = 1:  AP 0.389  RAP 0.383  INT 0.389  hit/rating 1.329  crit/rating 0.859  ranged DPS 3.577
+    old Turret EP (Agi = 1):  AP/RAP 0.340  INT 0.420  hit/rating 1.140  crit/rating 0.840  ranged DPS 2.870
+  W at best-by-D set (unit RAP = 0.1567 DPS; model DPS at the point 543.9):
+    per point (RAP units): AGI 2.613  AP 1.016  RAP 1.000  INT 1.016  STR 0.016  HIT/1% 35.05  HIT_RANGED/1% 20.29  CRIT/1% 31.40  RANGED_DPS 9.35  HASTE/1% 23.27  EXPERTISE/1% 25.31
+    normalized to Agi = 1:  AP 0.389  RAP 0.383  INT 0.389  hit/rating 1.341  crit/rating 0.858  ranged DPS 3.577
+    old Turret EP (Agi = 1):  AP/RAP 0.340  INT 0.420  hit/rating 1.140  crit/rating 0.840  ranged DPS 2.870
+======================================================================================================================
+SUMMARY (model DPS D):
+  +3 A: current 508.77  best 509.58  (+0.81, CHANGED)
+      addon SetValue fixed point [parse]: D 509.58 (+0.81), differs from current, same as best by D
+      addon SetValue fixed point [api_ap]: D 509.58 (+0.81), differs from current, same as best by D
+  +3 B: current 496.65  best 497.52  (+0.87, CHANGED)
+      addon SetValue fixed point [parse]: D 497.52 (+0.87), differs from current, same as best by D
+      addon SetValue fixed point [api_ap]: D 497.52 (+0.87), differs from current, same as best by D
+  +2 A: current 532.94  best 539.07  (+6.12, CHANGED)
+      addon SetValue fixed point [parse]: D 539.07 (+6.12), differs from current, same as best by D
+      addon SetValue fixed point [api_ap]: D 539.07 (+6.12), differs from current, same as best by D
+  +2 B: current 518.79  best 525.06  (+6.27, CHANGED)
+      addon SetValue fixed point [parse]: D 525.06 (+6.27), differs from current, same as best by D
+      addon SetValue fixed point [api_ap]: D 525.06 (+6.27), differs from current, same as best by D
+  +0 A: current 549.21  best 558.96  (+9.75, CHANGED)
+      addon SetValue fixed point [parse]: D 558.96 (+9.75), differs from current, same as best by D
+      addon SetValue fixed point [api_ap]: D 558.96 (+9.75), differs from current, same as best by D
+  +0 B: current 534.69  best 543.86  (+9.17, CHANGED)
+      addon SetValue fixed point [parse]: D 543.86 (+9.17), differs from current, same as best by D
+      addon SetValue fixed point [api_ap]: D 543.86 (+9.17), differs from current, same as best by D
+exit 0

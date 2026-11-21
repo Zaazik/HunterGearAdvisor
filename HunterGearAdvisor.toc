@@ -1,0 +1,28 @@
+## Interface: 16001
+## Title: Hunter Gear Advisor
+## Notes: Upgrade checkmarks and gain numbers for a WoW Forever BM hunter.
+## Version: 0.1.0
+## X-License: PolyForm-Noncommercial-1.0.0
+## SavedVariables: HunterGearAdvisorDB
+## OptionalDeps: Baganator, Auctionator, AtlasLootClassic, Syndicator
+
+Core\Model.lua
+Core\Parse.lua
+Core\Score.lua
+Core\PreRaid.lua
+Game\Init.lua
+Game\Templates.lua
+Game\SetData.lua
+Game\UseData.lua
+Game\ProcData.lua
+Game\StatMultData.lua
+Game\Items.lua
+Game\Player.lua
+Game\Advisor.lua
+Game\Tooltip.lua
+Game\Bags.lua
+Game\Quest.lua
+Game\Swap.lua
+Game\PreRaidData.lua
+Game\PreRaid.lua
+Game\Commands.lua

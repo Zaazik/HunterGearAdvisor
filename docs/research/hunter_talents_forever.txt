@@ -1,0 +1,159 @@
+# Hunter talent tree 1091 (WoW Forever 1.60.1.70888) — descriptions (bp = spell base points) and per-rank values from TraitDefinitionEffectPoints curves (op0 = set)
+BM r1c2 Deadly Aspects max5 spell19552: While Aspect of the Hawk is active, Auto Shot has a [10]% chance of increasing ranged attack speed by [30]% for $6150d. While Aspect of the Beast is active, all melee auto attacks have a [10]% chance of increasing melee attack speed by [30]% for $1299448d.
+     e0:eff6/aura107/bp10/misc18/mask1048576,0,0,0/trig0; e1:eff6/aura107/bp10/misc18/mask0,0,16,0/trig0
+BM r1c3 Endurance Training max5 spell19583: Increases the Health and Armor of your pets by [15]%.
+     e0:eff6/aura107/bp15/misc8/mask201326592,0,0,0/trig0
+BM r2c1 Focused Fire max2 spell1223755: Increases all damage you and your pet deal by [2]% while your pet is active.
+     e0:eff6/aura4/bp2/misc0/mask0,0,0,0/trig0
+BM r2c2 Improved Aspect of the Monkey max3 spell19549: Increases the Dodge bonus of your Aspect of the Monkey by [4]%. Additionally, your pet gains 50% of the effect of your Aspect of the Monkey ability.
+     e0:eff6/aura107/bp4/misc3/mask524288,0,0,0/trig0; e1:eff6/aura4/bp6/misc0/mask0,0,0,0/trig0
+BM r2c3 Improved Revive Pet max2 spell24443: Revive Pet's casting time is reduced by $/1000;s1 sec, mana cost is reduced by [40]%, and increases the health your pet returns with by an additional [30]%.
+     e0:eff6/aura107/bp-6000/misc10/mask16777216,0,0,0/trig0; e1:eff6/aura108/bp-40/misc14/mask16777216,0,0,0/trig0; e2:eff6/aura107/bp30/misc8/mask16777216,0,0,0/trig0
+BM r3c1 Pathfinding max2 spell19559: Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by [6]%.
+     e0:eff6/aura107/bp6/misc3/mask2097152,0,0,0/trig0
+BM r3c2 Bestial Swiftness max1 spell19596: Increases the movement speed of your pets by [30]%.
+     e0:eff6/aura107/bp30/misc8/mask268435456,0,0,0/trig0
+BM r3c3 Unleashed Fury max5 spell19616: Increases the damage done by your pets and hawks by [20]%.
+     e0:eff6/aura107/bp20/misc3/mask33554432,0,8192,0/trig0
+BM r4c1 Improved Mend Pet max2 spell19572: Gives your Mend Pet spell a [50]% chance of cleansing [1] Curse, Disease, Magic, or Poison effect from your pet each time it heals and reduces the Mana cost by [20]%.
+     e0:eff6/aura4/bp50/misc0/mask0,0,0,0/trig0; e1:eff6/aura108/bp-20/misc14/mask8388608,0,0,0/trig0
+BM r4c3 Ferocity max5 spell19598: Increases the critical strike chance of your pets and hawks by [16]%.
+     e0:eff6/aura107/bp16/misc3/mask1073741824,0,8192,0/trig0
+BM r4c4 Summon Hawk max1 spell1293241: Command a hawk to dive-bomb your targeted enemy, dealing ${[32]+($rap*([32]4/100))} Physical damage and continuing its assault for $1293248d. Only [2] hawks can be active at once. Summon Hawk shares its cooldown with Arcane Shot.
+     e0:eff2/aura0/bp32/misc0/mask0,0,0,0/trig0; e1:eff32/aura0/bp0/misc0/mask0,0,0,0/trig1312639; e2:eff3/aura0/bp2/misc0/mask0,0,0,0/trig0; e3:eff3/aura0/bp5/misc0/mask0,0,0,0/trig0
+BM r5c1 Spirit Bond max2 spell19578: While your pet is active, you and your pet will regenerate [1]% of total health every [5] sec.
+     e0:eff6/aura4/bp1/misc0/mask0,0,0,0/trig0; e1:eff3/aura0/bp5/misc0/mask0,0,0,0/trig0
+BM r5c2 Intimidation max1 spell19577: Command your pet to Stun the target for $24394d on its next successful attack, which also gains [100]% increased critical strike chance. Generates high threat.
+     e0:eff6/aura42/bp0/misc0/mask0,0,0,0/trig24394; e1:eff6/aura290/bp100/misc0/mask0,0,0,0/trig0
+BM r5c4 Bestial Discipline max2 spell19590: Increases the Focus regeneration of your pets by [100]% and allows [50]% of your Mana regeneration to continue while casting.
+     e0:eff6/aura107/bp100/misc8/mask536870912,0,0,0/trig0; e1:eff6/aura134/bp50/misc0/mask0,0,0,0/trig0
+BM r6c3 Frenzy max5 spell19621: Gives your pet a [20]% chance to gain a [30]% attack speed increase for $19615d after dealing a critical strike.
+     e0:eff6/aura107/bp20/misc18/mask-2147483648,0,0,0/trig0
+BM r7c2 Bestial Wrath max1 spell19574: Send your pet into a rage causing [50]% additional damage for $d.  While enraged, the beast does not feel pity or remorse or fear and it cannot be stopped unless killed.
+     e0:eff6/aura61/bp50/misc0/mask0,0,0,0/trig0; e1:eff6/aura79/bp50/misc127/mask0,0,0,0/trig0; e2:eff6/aura77/bp0/misc12/mask0,0,0,0/trig0; e3:eff6/aura77/bp0/misc1/mask0,0,0,0/trig0; e4:eff6/aura77/bp0/misc5/mask0,0,0,0/trig0; e5:eff6/aura77/bp0/misc17/mask0,0,0,0/trig0; e6:eff6/aura77/bp0/misc14/mask0,0,0,0/trig0; e7:eff6/aura77/bp0/misc13/mask0,0,0,0/trig0; e8:eff6/aura77/bp0/misc24/mask0,0,0,0/trig0; e9:eff6/aura77/bp0/misc7/mask0,0,0,0/trig0; e10:eff6/aura77/bp0/misc10/mask0,0,0,0/trig0; e11:eff6/aura77/bp0/misc11/mask0,0,0,0/trig0; e12:eff6/aura77/bp0/misc2/mask0,0,0,0/trig0
+MM r1c1 Hawk Eye max3 spell19498: Increases the range of your ranged weapons by [6] yards.
+     e0:eff6/aura107/bp6/misc5/mask522753,-2147483648,8192,8388608/trig0
+MM r1c2 Improved Concussive Shot max5 spell19407: Gives your Concussive Shot a [0]% chance to stun the target for $19410d.
+     e0:eff6/aura42/bp0/misc0/mask0,0,0,0/trig19410
+MM r1c3 Lethal Attacks max5 spell19426: Increases your critical strike chance with all attacks by [1]%.
+     e0:eff6/aura290/bp1/misc0/mask0,0,0,0/trig0
+MM r2c1 Improved Stings max3 spell1310661: Increases the damage of your Serpent Sting ability by [20]%, reduces the cooldown of your Viper Sting ability by ${[6000]/-1000} sec, and increases the duration of your Scorpid Sting ability by ${[45000]/1000} sec.
+     e0:eff6/aura108/bp20/misc22/mask16384,0,0,0/trig0; e1:eff6/aura107/bp-6000/misc11/mask0,128,0,0/trig0; e2:eff6/aura107/bp45000/misc1/mask32768,0,0,0/trig0
+MM r2c2 Efficiency max5 spell19416: Reduces the Mana cost of your Shots, Stings, and melee abilities by [15]%.
+     e0:eff6/aura108/bp-15/misc14/mask522818,-2146955264,2105344,8388608/trig0
+MM r2c3 Careful Aim max5 spell1223984: Increases your Attack Power by [100]% of your Intellect.
+     e0:eff6/aura580/bp100/misc3/mask0,0,0,0/trig0; e1:eff6/aura598/bp100/misc3/mask0,0,0,0/trig0
+MM r3c1 Rapid Killing max2 spell415405: Reduces the cooldown on your Rapid Fire ability by ${[120000]/-60000} min. In addition, when you kill a non-trivial enemy or it dies while afflicted by your Serpent Sting, you gain Rapid Killing, increasing the damage of your next Shot ability within $415407d by [20]%.
+     e0:eff6/aura107/bp-120000/misc11/mask32,0,0,0/trig0; e1:eff6/aura4/bp20/misc0/mask0,0,0,0/trig0
+MM r3c2 Improved Arcane Shot max5 spell19454: Reduces the cooldown of your Arcane Shot by $/1000;S1 sec. Does not affect the cooldown of abilities which share a cooldown with Arcane Shot.
+     e0:eff6/aura107/bp-1500/misc11/mask2048,0,0,0/trig0
+MM r3c4 Lone Wolf max1 spell415370: You deal [20]% increased damage with all attacks while you do not have an active pet.
+     e0:eff6/aura79/bp20/misc127/mask0,0,0,0/trig0; e1:eff6/aura4/bp20/misc0/mask0,0,0,0/trig0
+MM r4c2 Trueshot Aura max1 spell1299346: Increases the Ranged Attack Power of party or raid members within $a1 yds by [20].
+     e0:eff65/aura124/bp20/misc0/mask0,0,0,0/trig0
+MM r4c3 Mortal Shots max5 spell19485: Increases the critical strike damage bonus on all ranged abilities by [30]%.
+     e0:eff6/aura108/bp30/misc15/mask424449,-2147483648,268435968,8388608/trig0
+MM r5c1 Rapid Recuperation max2 spell1223987: Afflicting a target with Serpent Sting allows [50]% of your Mana Regeneration to continue while casting for $1242512d, increased to [100]% when Rapid Killing is consumed.
+     e0:eff6/aura4/bp50/misc0/mask0,0,0,0/trig0; e1:eff6/aura4/bp100/misc0/mask0,0,0,0/trig0
+MM r5c3 Barrage max3 spell19461: Increases the damage done by your Multi-Shot, Aimed Shot, and Volley abilities by [15]%.
+     e0:eff6/aura108/bp15/misc0/mask143360,0,0,0/trig0; e1:eff6/aura108/bp15/misc22/mask0,0,0,0/trig0
+MM r5c4 Scatter Shot max1 spell19503: A short-range shot that deals [50]% weapon damage and disorients the target for $d.  Any damage caused will remove the effect.  Turns off your attack when used.
+     e0:eff31/aura0/bp50/misc0/mask0,0,0,0/trig0; e1:eff6/aura5/bp0/misc0/mask0,0,0,0/trig0
+MM r6c3 Ranged Weapon Specialization max5 spell19507: Increases the damage you deal with ranged weapons by [5]%.
+     e0:eff6/aura79/bp5/misc127/mask0,0,0,0/trig0
+MM r7c2 Sniper Shot max1 spell1310687: A long-range shot that deals ranged damage plus [320] and increases the range of your next $n Shots by [10] yards for $d.
+     e0:eff121/aura0/bp320/misc0/mask0,0,0,0/trig0; e1:eff6/aura107/bp10/misc5/mask399873,0,0,0/trig0
+MM r4c4 Improved Serpent Sting max5 spell19464: Increases the damage done by your Serpent Sting by [10]%.
+     e0:eff6/aura108/bp10/misc22/mask16384,0,0,0/trig0; e1:eff6/aura108/bp10/misc0/mask16384,0,0,0/trig0
+SV r7c3 Lightning Reflexes max5 spell19168: Increases your Agility by [15]%.
+     e0:eff6/aura137/bp15/misc0/mask0,0,0,0/trig0
+SV r1c2 Improved Tracking max5 spell24293: While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by [5]%.
+     e0:eff6/aura107/bp5/misc12/mask0,0,2,0/trig0
+SV r1c3 Deflection max5 spell19295: Increases your Parry chance by [5]%.
+     e0:eff6/aura47/bp5/misc0/mask0,0,0,0/trig0
+SV r2c1 Entrapment max5 spell19184: When your traps are triggered, all affected targets are Entrapped, preventing them from moving for ${[5000]/1000} sec.
+     e0:eff6/aura4/bp5000/misc0/mask0,0,0,0/trig0
+SV r2c2 Savage Strikes max2 spell19159: Increases the critical strike chance of all your melee abilities by [20]%.
+     e0:eff6/aura107/bp20/misc7/mask66,528384,2097152,0/trig0
+SV r2c3 Survivalist max5 spell19255: Increases your total Health by [10]%.
+     e0:eff6/aura133/bp10/misc0/mask0,0,0,0/trig0
+SV r2c4 Improved Wing Clip max3 spell19228: Gives your Wing Clip ability a [20]% chance to immobilize the target for $19229d.
+     e0:eff6/aura42/bp20/misc0/mask0,0,0,0/trig19229
+SV r3c1 Clever Traps max2 spell19239: Increases the duration of Freezing and Frost trap effects by [30]% and the damage of Immolation and Explosive trap effects by [30]%.
+     e0:eff6/aura108/bp30/misc1/mask24,0,0,0/trig0; e1:eff6/aura108/bp30/misc8/mask4,0,0,0/trig0
+SV r3c2 Surefooted max3 spell19290: Increases your hit chance by [3]% and reduces the duration of movement impairing effects on you by [30]%.
+     e0:eff6/aura232/bp-30/misc11/mask0,0,0,0/trig0; e1:eff6/aura232/bp-30/misc7/mask0,0,0,0/trig0; e2:eff6/aura54/bp3/misc0/mask0,0,0,0/trig0; e3:eff6/aura55/bp3/misc0/mask0,0,0,0/trig0
+SV r3c3 Deterrence max1 spell19263: When activated, increases your Dodge and Parry chance by [25]% for $d.
+     e0:eff6/aura47/bp25/misc0/mask0,0,0,0/trig0; e1:eff6/aura49/bp25/misc0/mask0,0,0,0/trig0
+SV r4c1 Survival Tactics max2 spell19376: Increases your chance to hit with your Trap and Feign Death abilities by [17]%.
+     e0:eff6/aura107/bp17/misc16/mask284,0,0,0/trig0
+SV r4c2 Predator's Edge max5 spell1310627: Increases your melee ability critical strike damage by [30]% and your Off Hand weapon damage by [50]%.
+     e0:eff6/aura108/bp30/misc15/mask66,528384,1075904512,0/trig0; e1:eff6/aura122/bp50/misc0/mask0,0,0,0/trig0
+SV r4c3 Counterattack max1 spell19306: A strike that becomes active after parrying an opponent's attack. This attack deals [50]% weapon damage plus [26] and immobilizes the target for $d. Counterattack cannot be blocked, dodged, or parried.
+     e0:eff121/aura0/bp26/misc0/mask0,0,0,0/trig0; e1:eff31/aura0/bp50/misc0/mask0,0,0,0/trig0; e2:eff6/aura26/bp0/misc0/mask0,0,0,0/trig0
+SV r5c1 Resourcefulness max2 spell440529: Reduces the Mana cost of your Trap and melee abilities by [60]%, and grants your melee and ranged ability Critical Strikes a [100]% chance to allow [50]% of your Mana Regeneration to continue while casting for $1242688d.
+     e0:eff6/aura108/bp-60/misc14/mask194,524288,2097152,0/trig0; e1:eff6/aura42/bp100/misc0/mask0,0,0,0/trig1242688
+SV r5c2 Expose Prey max2 spell1310532: Grants your melee and ranged attacks against enemies afflicted by Hunter's Mark a [10]% chance to allow an activation of Mongoose Bite. Lasts $1310726d.
+     e0:eff6/aura42/bp10/misc0/mask0,0,0,0/trig1310726
+SV r5c3 Survivalist's Discipline max2 spell1310496: Reduces the cooldown of your Trap and Deterrence abilities by [40]%.
+     e0:eff6/aura108/bp-40/misc11/mask128,0,0,134217728/trig0
+SV r5c4 Strider Kick max1 spell1317257: A powerful kick that deals [100]% melee weapon damage and increases movement speed by [30]% for $d.
+     e0:eff121/aura0/bp0/misc0/mask0,0,0,0/trig0; e1:eff31/aura0/bp100/misc0/mask0,0,0,0/trig0; e2:eff6/aura31/bp30/misc0/mask0,0,0,0/trig0
+SV r6c3 Lightning Reflexes max5 spell19168: Increases your Agility by [15]%.
+     e0:eff6/aura137/bp15/misc0/mask0,0,0,0/trig0
+SV r7c2 Lacerating Strikes max1 spell1310533: Your Mongoose Bite also causes the target to Bleed for damage equal to [40]% of the damage done by Mongoose Bite over $1310536d
+     e0:eff6/aura4/bp40/misc0/mask0,0,0,0/trig0
+
+# PER-RANK CURVES
+Deadly Aspects max5 bp={0: '10', 1: '10'} :: e0 op0 curve82832: r1=2 r2=4 r3=6 r4=8 r5=10 | e1 op0 curve104809: r1=2 r2=4 r3=6 r4=8 r5=10
+Bestial Wrath max1 bp={0: '50', 1: '50', 2: '0', 3: '0', 4: '0', 5: '0', 6: '0', 7: '0', 8: '0', 9: '0', 10: '0', 11: '0', 12: '0'} :: NO CURVE
+Frenzy max5 bp={0: '20'} :: e0 op0 curve82815: r1=20 r2=40 r3=60 r4=80 r5=100
+Bestial Discipline max2 bp={0: '100', 1: '50'} :: e1 op0 curve82816: r1=25 r2=50 | e0 op0 curve82817: r1=10 r2=20
+Intimidation max1 bp={0: '0', 1: '100'} :: NO CURVE
+Spirit Bond max2 bp={0: '1', 1: '5'} :: e0 op0 curve82819: r1=1 r2=1 | e1 op0 curve82818: r1=10 r2=5
+Summon Hawk max1 bp={0: '32', 1: '0', 2: '2', 3: '5'} :: NO CURVE
+Ferocity max5 bp={0: '16'} :: e0 op0 curve82820: r1=2 r2=4 r3=6 r4=8 r5=10
+Improved Mend Pet max2 bp={0: '50', 1: '-20'} :: e0 op0 curve82821: r1=15 r2=50 | e1 op0 curve110240: r1=-10 r2=-20
+Unleashed Fury max5 bp={0: '20'} :: e0 op0 curve82822: r1=3 r2=6 r3=9 r4=12 r5=15
+Bestial Swiftness max1 bp={0: '30'} :: NO CURVE
+Improved Revive Pet max2 bp={0: '-6000', 1: '-40', 2: '30'} :: e2 op0 curve82824: r1=15 r2=30 | e0 op0 curve82826: r1=-3000 r2=-6000 | e1 op0 curve82825: r1=-20 r2=-40
+Pathfinding max2 bp={0: '6'} :: e0 op0 curve82827: r1=3 r2=6
+Improved Aspect of the Monkey max3 bp={0: '4', 1: '6'} :: e0 op0 curve82828: r1=2 r2=4 r3=6 | e1 op0 curve110242: r1=5 r2=6 r3=7
+Focused Fire max2 bp={0: '2'} :: e0 op0 curve82830: r1=1 r2=2
+Endurance Training max5 bp={0: '15'} :: e0 op0 curve82831: r1=3 r2=6 r3=9 r4=12 r5=15 | e1 op0 curve110241: r1=3 r2=6 r3=9 r4=12 r5=15
+Strider Kick max1 bp={0: '0', 1: '100', 2: '30'} :: NO CURVE
+Lightning Reflexes max5 bp={0: '15'} :: e0 op0 curve82778: r1=3 r2=6 r3=9 r4=12 r5=15
+Resourcefulness max2 bp={0: '-60', 1: '100'} :: e1 op0 curve85425: r1=50 r2=100 | e0 op0 curve82781: r1=-30 r2=-60 | e2 op0 curve85425: r1=50 r2=100
+Lacerating Strikes max1 bp={0: '40'} :: NO CURVE
+Expose Prey max2 bp={0: '10'} :: e0 op0 curve82782: r1=5 r2=10
+Deterrence max1 bp={0: '25', 1: '25'} :: NO CURVE
+Surefooted max3 bp={0: '-30', 1: '-30', 2: '3', 3: '3'} :: e0 op0 curve82784: r1=-10 r2=-20 r3=-30 | e1 op0 curve82783: r1=-10 r2=-20 r3=-30 | e2 op0 curve88007: r1=1 r2=2 r3=3 | e3 op0 curve127736: r1=1 r2=2 r3=3
+Survival Tactics max2 bp={0: '17'} :: e0 op0 curve82785: r1=5 r2=10
+Counterattack max1 bp={0: '26', 1: '50', 2: '0'} :: NO CURVE
+Improved Wing Clip max3 bp={0: '20'} :: e0 op0 curve82786: r1=7 r2=13 r3=20
+Clever Traps max2 bp={0: '30', 1: '30'} :: e1 op0 curve82787: r1=15 r2=30 | e0 op0 curve82788: r1=15 r2=30
+Survivalist max5 bp={0: '10'} :: e0 op0 curve82789: r1=2 r2=4 r3=6 r4=8 r5=10
+Savage Strikes max2 bp={0: '20'} :: e0 op0 curve82790: r1=2 r2=4
+Entrapment max5 bp={0: '5000'} :: e0 op0 curve82791: r1=1000 r2=2000 r3=3000 r4=4000 r5=5000
+Deflection max5 bp={0: '5'} :: e0 op0 curve82792: r1=1 r2=2 r3=3 r4=4 r5=5
+Improved Tracking max5 bp={0: '5'} :: e0 op0 curve82794: r1=1 r2=2 r3=3 r4=4 r5=5 | e1 op0 curve82793: r1=1 r2=2 r3=3 r4=4 r5=5
+Sniper Shot max1 bp={0: '320', 1: '10'} :: NO CURVE
+Ranged Weapon Specialization max5 bp={0: '5'} :: e0 op0 curve82800: r1=1 r2=2 r3=3 r4=4 r5=5
+Rapid Recuperation max2 bp={0: '50', 1: '100'} :: e1 op0 curve82801: r1=50 r2=100 | e0 op0 curve82802: r1=25 r2=50
+Scatter Shot max1 bp={0: '50', 1: '0'} :: NO CURVE
+Barrage max3 bp={0: '15', 1: '15'} :: e0 op0 curve82803: r1=5 r2=10 r3=15
+Mortal Shots max5 bp={0: '30'} :: e0 op0 curve82804: r1=6 r2=12 r3=18 r4=24 r5=30
+Improved Serpent Sting max5 bp={0: '10', 1: '10'} :: e0 op0 curve82805: r1=2 r2=4 r3=6 r4=8 r5=10
+Trueshot Aura max1 bp={0: '20'} :: NO CURVE
+Rapid Killing max2 bp={0: '-120000', 1: '20'} :: e0 op0 curve82807: r1=-60000 r2=-120000 | e1 op0 curve82806: r1=10 r2=20
+Improved Arcane Shot max5 bp={0: '-1500'} :: e0 op0 curve82808: r1=-300 r2=-600 r3=-900 r4=-1200 r5=-1500
+Lone Wolf max1 bp={0: '20', 1: '20'} :: NO CURVE
+Careful Aim max5 bp={0: '100', 1: '100'} :: e0 op0 curve82810: r1=20 r2=40 r3=60 r4=80 r5=100 | e1 op0 curve104810: r1=20 r2=40 r3=60 r4=80 r5=100
+Efficiency max5 bp={0: '-15'} :: e0 op0 curve82809: r1=-3 r2=-6 r3=-9 r4=-12 r5=-15
+Lethal Attacks max5 bp={0: '1'} :: e0 op0 curve82812: r1=1 r2=2 r3=3 r4=4 r5=5
+Improved Concussive Shot max5 bp={0: '0'} :: e0 op0 curve82813: r1=4 r2=8 r3=12 r4=16 r5=20
+Hawk Eye max3 bp={0: '6'} :: e0 op0 curve82814: r1=2 r2=4 r3=6
+Lightning Reflexes max5 bp={0: '15'} :: e0 op0 curve109548: r1=3 r2=6 r3=9 r4=12 r5=15
+Survivalist's Discipline max2 bp={0: '-40'} :: e0 op0 curve109597: r1=-20 r2=-40
+Predator's Edge max5 bp={0: '30', 1: '50'} :: e0 op0 curve109721: r1=6 r2=12 r3=18 r4=24 r5=30 | e1 op0 curve109720: r1=10 r2=20 r3=30 r4=40 r5=50
+Improved Stings max3 bp={0: '20', 1: '-6000', 2: '45000'} :: e0 op0 curve110239: r1=6 r2=13 r3=20 | e1 op0 curve110238: r1=-2000 r2=-4000 r3=-6000 | e2 op0 curve110237: r1=15000 r2=30000 r3=45000

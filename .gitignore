@@ -1,0 +1,4 @@
+tools/preraid/data/
+tools/preraid/rescore/out/*
+!tools/preraid/rescore/out/out_*2026-11-16.txt
+__pycache__/
